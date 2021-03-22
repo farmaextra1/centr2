@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -16,58 +17,65 @@ body{
 /* OBRAZOVKA DONEKONEČNA */
 @media only screen and (min-width: 1100px)
 { 
-    .druha-sekce{
-        position: absolute;
-        height: 1880px;
-        max-width: 100%;
-        width: 100%;
-        left: 0;
-        top: 90vh;
-        background-color: rgb(28, 27, 29);
-        z-index: -1;
-    }
+.hlavni-video{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+}
+.druha-sekce{
+    position: relative;
+    height: 1800px;
+    max-width: 100%;
+    width: 100%;
+    background-color: rgb(28, 27, 29);
+    z-index: -1;
+}
+
+.treti-sekce{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
     
-    .treti-sekce{
-        position: absolute;
-        max-width: 100%;
-        width: 100%;
-        background-color: rgb(240, 240, 240);
-        top: 2400px;
-        height: 750px;
-        z-index: -3;
-    }
+    height: 750px;
+    z-index: -3;
+}
+
+.ctvrta-sekce{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    background-color: white;
     
-    .ctvrta-sekce{
-        position: absolute;
-        max-width: 100%;
-        width: 100%;
-        background-color: white;
-        top: 3150px;
-        height: 120vh;
-        z-index: -4;
-    }
+    height: 120vh;
+    z-index: -4;
+}
+
+.pata-sekce{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
     
-    .pata-sekce{
-        position: absolute;
-        max-width: 100%;
-        width: 100%;
-        background-color: rgb(240, 240, 240);
-        top: 3900px;
-        height: 900px;
-        z-index: -5;
-    }
+    height: 900px;
+    z-index: -5;
+}
 
 .obrazek1{
     width: 100%;
+    height: 410px;
     border-radius: 20px;
 }
 
     .celek{
         position: relative;
         left: 50%;
-        top: 100px;
+        top: 50px;
         transform: translate(-50%);
         max-width: 1040px;
+        width: 1040px;
+        height: 415px;
         border-radius: 45px;
         margin-bottom: 120px;
     }
@@ -120,6 +128,7 @@ body{
     .celek2{
         position: relative;
         left: 50%;
+        top: -50px;
         transform: translate(-50%);
         max-width: 1040px;
         border-radius: 45px;
@@ -171,7 +180,7 @@ body{
         position: relative;
         font-family: 'Times New Roman', Times, serif;
         font-weight: 100;
-        left: -10px;
+        left: 30px;
         
     }
     .podbody1 li{
@@ -208,6 +217,7 @@ body{
         max-width: 1040px;
         border-radius: 50px;
         display: flex;
+        top: -50px;
         height: 200px;
         max-height: 200px;
         margin-bottom: 220px;
@@ -247,6 +257,7 @@ body{
         max-width: 1040px;
         border-radius: 50px;
         display: flex;
+        top: -50px;
         height: 200px;
         max-height: 200px;
     }
@@ -532,7 +543,7 @@ body{
     }
       .wrapper{
           position: absolute;
-          width: 940px;
+          width: 900px;
           height: 900px;
           left: 50%;
           transform: translate(-50%);
@@ -552,7 +563,7 @@ body{
     
       .slick-next{
           position: absolute;
-          left: 930px;
+          left: 880px;
           top: 60px;
           width: 50px;
           height: 40px;
@@ -567,7 +578,7 @@ body{
       }
       .slick-prev{
         position: absolute;
-        left: -30px;
+        left: -60px;
         top: 60px;
         width: 50px;
         height: 40px;
@@ -751,7 +762,6 @@ body{
 #myVideo {
     position: absolute;
     top:0;
-    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
