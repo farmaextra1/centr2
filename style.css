@@ -37,7 +37,6 @@ body{
     max-width: 100%;
     width: 100%;
     background-color: rgb(240, 240, 240);
-    
     height: 750px;
     z-index: -3;
 }
@@ -47,8 +46,7 @@ body{
     max-width: 100%;
     width: 100%;
     background-color: white;
-    
-    height: 120vh;
+    height: 700px;
     z-index: -4;
 }
 
@@ -57,7 +55,6 @@ body{
     max-width: 100%;
     width: 100%;
     background-color: rgb(240, 240, 240);
-    
     height: 900px;
     z-index: -5;
 }
@@ -346,24 +343,30 @@ body{
     border-color: transparent #171c21 transparent transparent;
     }
 
-   
+   .upevneni{
+       position: relative;
+       width: 100%;
+       left: 50%;
+       transform: translate(-50%);
+       text-align: center;
+       justify-content: center;
+       align-items: center;
+       display: flex;
+   }
     .video-obrazek{
         position: relative;
-        left: 30%;
-        transform: translate(-30%);
+        left: 10px;
         top: 100px;
         height: 550px;
         width: auto;
         float: left;
-        
     }
   
     .texty-tretiSekce{
         position: relative;
         display: inline-block;
-        left: 40%;
-        transform: translate(-40%);
-        top:260px;
+        left: 100px;
+        top:100px;
     }
 
     .text1-tretiSekce{
@@ -689,7 +692,11 @@ body{
         height: 30px;
         font-size: 10px;
     }
-
+    .celek5{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+    }
 }
 /* KONEC ZMENŠENÝ */
 
