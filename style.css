@@ -1,0 +1,814 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+@media only screen and (min-width: 768px)
+{
+    .hlavni-video{
+        height: 100vh;
+    }
+}
+
+/* OBRAZOVKA DONEKONEČNA */
+@media only screen and (min-width: 1100px)
+{ 
+.druha-sekce{
+    position: absolute;
+    height: 1880px;
+    max-width: 100%;
+    width: 100%;
+    left: 0;
+    top: 90vh;
+    background-color: rgb(28, 27, 29);
+    z-index: -1;
+}
+
+.treti-sekce{
+    position: relative;
+    max-width: 102%;
+    width: 102%;
+    left: -1%;
+    background-color: rgb(240, 240, 240);
+    top: 1800px;
+    height: 750px;
+    z-index: -3;
+}
+
+.ctvrta-sekce{
+    position: relative;
+    max-width: 102%;
+    width: 102%;
+    left: -1%;
+    background-color: white;
+    top: 1800px;
+    height: 120vh;
+    z-index: -4;
+}
+
+.pata-sekce{
+    position: absolute;
+    max-width: 102%;
+    width: 102%;
+    left: -1%;
+    background-color: rgb(240, 240, 240);
+    top: 3900px;
+    height: 900px;
+    z-index: -5;
+}
+
+.obrazek1{
+    width: 100%;
+    border-radius: 20px;
+}
+
+    .celek{
+        position: relative;
+        left: 50%;
+        top: 100px;
+        transform: translate(-50%);
+        max-width: 1040px;
+        border-radius: 45px;
+        margin-bottom: 120px;
+    }
+    .texty{
+        position: absolute;
+        left: 3%;
+        top: 10%;
+        color: white;
+    }
+    .celek-text1{
+        position: relative;
+        display: inline-block;
+        font-size: 50px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .celek-text2{
+        position: relative;
+        display: inline-block;
+        max-width: 40%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    
+    .celek-text3{
+        position: relative;
+        display: inline-block;
+        max-width: 360px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    
+    .celek-button{
+        position: relative;
+        color: white;
+        background-color: transparent;
+        border-color: #ffffff;
+        border-style: solid;
+        border-width: 1.3px;
+        border-radius: 3px;
+        cursor: pointer !important;
+        width: 150px;
+        height: 50px;
+        font-size: 13px;
+        z-index: 100 !important;
+    }
+
+    .celek2{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        max-width: 1040px;
+        border-radius: 45px;
+        display: flex;
+        height: 300px;
+        margin-bottom: 160px;
+    }
+
+    .leva-pulka{
+        position: relative;
+        left: 0;
+        width: 56%;
+        height: 100%;
+        background-image: url("https://web-cdn.centr.com/deploy/build/3.4.15-15524/3c5e1708de5fa0cb12580419ce38cc28.jpg");
+        background-size: cover;
+        flex-shrink: 0;
+        background-position: center center;
+        background-repeat: no-repeat;
+        padding-top: 42%;
+        display: block;
+        max-width: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .prava-pulka{
+        position: relative;
+        background-color: white;
+        width: 44%;
+        min-height: 436px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .nadpis{
+        position: relative;
+        display: inline-block;
+        top: 20px;
+        left: 20px;
+        font-size: 25px;
+        max-width: 380px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+    }
+
+    .podbody1{
+        position: relative;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 100;
+        left: -10px;
+        
+    }
+    .podbody1 li{
+    margin: 13px;
+    }
+
+    .prava-pulka-button{
+        position: relative;
+        width: 90%;
+        height: 45px;
+        top: 30px;
+        background-color: black;
+        background-image: url("play.png");
+        background-repeat: no-repeat;
+        background-position: 115px center;  
+        background-size: 38px;   
+        text-indent: 30px;
+        color: white;
+        border-radius: 6px;
+        left: 50%;
+        transform: translate(-50%);
+        border: none;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        font-size: 15px;
+    }
+
+    .celek3{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        max-width: 1040px;
+        border-radius: 50px;
+        display: flex;
+        height: 200px;
+        max-height: 200px;
+        margin-bottom: 220px;
+    }
+
+    .leva-pulka3{
+        position: relative;
+        left: 0;
+        width: 56%;
+        height: 100%;
+        background-image: url("https://web-cdn.centr.com/deploy/build/3.4.15-15524/13ad362d8931cc3c4b6e1dc042335885.jpg");
+        background-size: cover;
+        flex-shrink: 0;
+        background-position: center center;
+        background-repeat: no-repeat;
+        padding-top: 38%;
+        display: block;
+        max-width: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .prava-pulka3{
+        position: relative;
+        background-color: white;
+        width: 44%;
+        min-height: 395px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+
+    .celek4{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        max-width: 1040px;
+        border-radius: 50px;
+        display: flex;
+        height: 200px;
+        max-height: 200px;
+    }
+
+    .leva-pulka4{
+        position: relative;
+        left: 0;
+        width: 56%;
+        height: 100%;
+        background-image: url("https://web-cdn.centr.com/deploy/build/3.4.15-15524/193cff1594917141961091f084a52c72.jpg");
+        background-size: cover;
+        flex-shrink: 0;
+        background-position: center center;
+        background-repeat: no-repeat;
+        padding-top: 38%;
+        display: block;
+        max-width: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .prava-pulka-button4{
+        position: relative;
+        width: 90%;
+        height: 45px;
+        top: 50px;
+        background-color: black;
+        background-image: url("play.png");
+        background-repeat: no-repeat;
+        background-position: 115px center;  
+        background-size: 38px;   
+        text-indent: 30px;
+        color: white;
+        border-radius: 6px;
+        left: 50%;
+        transform: translate(-50%);
+        border: none;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        font-size: 15px;
+    }
+
+    .leva-pulka::after,.leva-pulka3::after,.leva-pulka4::after{
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 60px;
+        height: 60px;
+        background-image: url('play2.png');
+        background-size: cover;
+    }
+
+    .sipka{
+        font-size: 28px;
+        top: 10px;
+        width: 93px;
+        height: 52px;
+        position: absolute;
+        right: 0;
+        color: #fee58e;
+        background-color: #171c21;
+        line-height: 1;
+        padding: 0;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .sipka::before{
+    left: -20px;
+    border-width: 26px 20px 26px 0;
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent #171c21 transparent transparent;
+    }
+
+   
+    .video-obrazek{
+        position: relative;
+        left: 30%;
+        transform: translate(-30%);
+        top: 100px;
+        height: 550px;
+        width: auto;
+        float: left;
+        
+    }
+  
+    .texty-tretiSekce{
+        position: relative;
+        display: inline-block;
+        left: 40%;
+        transform: translate(-40%);
+        top:260px;
+    }
+
+    .text1-tretiSekce{
+        position: relative;
+        display: inline-block;
+        font-size: 38px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        max-width: 350px;
+        width: 350px;
+    }
+    .text2-tretiSekce{
+        position: relative;
+        display: inline-block;
+        max-width: 350px;
+        width: 350px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 30px;
+    }
+
+    .texty-ctvrtaSekce{
+        position: relative;
+        left: 50%;
+        top:60px;
+        transform: translate(-50%);
+        text-align: center;
+    }
+
+    .text1-ctvrtaSekce{
+       display: inline-block;
+       font-size: 40px;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       margin-bottom: 20px;
+    }
+    .text2-ctvrtaSekce{
+     font-size: 20px;
+    }
+
+    /* PRVNI SLIDE CSS*/ 
+      .slider {
+        list-style: none;
+        height: 350px;
+        outline: none;
+      }
+      
+      .slick-list, .slick-track {
+        height: 100%;
+      }
+    
+    .container{
+        width: 100%;
+        height: 100%;
+        outline: none;
+    }
+    
+    .slide {
+        width: 340px;
+        height: 100%;
+        outline: none;
+      }
+    
+      .recenze1{
+        width: auto;
+        height: 350px;
+        outline: none;
+        margin-left: 15px;
+    }
+    
+    .wrapper2{
+          position: absolute;
+          width: 1010px;
+          height: 350px;
+          left: 50%;
+          transform: translate(-50%);
+          top:230px;
+          outline: none;
+    }
+    
+    
+    .wrapper2 .slick-next{
+        position: absolute;
+        left: 1020px;
+        top: 160px;
+        width: 50px;
+        height: 40px;
+        background-image: url('sipkaPravo.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 40px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .wrapper2 .slick-prev{
+      position: absolute;
+      left: -50px;
+      top: 160px;
+      width: 50px;
+      height: 40px;
+      background-image: url('sipkaPravo.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 40px;
+      background-color: transparent;
+      transform: rotate(-180deg);
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+    /* KONEC PRVNÍHO SLIDERU CSS*/
+
+    .text-pataSekce{
+        position: relative;
+        left: 50%;
+        top:120px;
+        transform: translate(-50%);
+        text-align: center;
+    }
+
+    .text1-pataSekce{
+        display: inline-block;
+        font-size: 37px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+    /*ZAČÁTEK DRUHÝHO SLIDERU CSS*/
+    .items {
+        list-style: none;
+        height: 600px;
+        outline: none;
+      }
+      
+      .slick-list, .slick-track {
+        height: 100%;
+      }
+      
+      .item {
+        width: 180px;
+        height: 100%;
+        outline: none;
+      }
+      
+      .content {
+        width: 100%;
+        height: 100%;
+        transition: transform 0.5s linear;
+        transition-delay: 0.5s;
+        text-align: center;
+        outline: none;
+      }
+      
+      .items{
+        outline: none;
+      }
+    
+      
+      ul li:not(.slick-current) .content {
+        opacity: 0.5;
+      }
+    
+      ul li:not(.slick-current) .text{
+          display:none;
+      }
+      ul li:not(.slick-current) .obrazek{
+        border: none;
+        box-shadow: none;
+    }
+    
+    ul li:not(.slick-current) .hemsworth-logo{
+        display: none;
+    }
+    ul li:not(.slick-current) .founder{
+      display: none;
+    }
+      .wrapper{
+          position: absolute;
+          width: 940px;
+          height: 900px;
+          left: 50%;
+          transform: translate(-50%);
+          top:250px;
+          outline: none;
+      }
+    
+      .obrazek{
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          overflow: hidden;
+          border: black solid;
+          outline: none;
+          box-shadow: 0 4px 16px rgb(49 56 77 / 50%);
+      }
+    
+      .slick-next{
+          position: absolute;
+          left: 930px;
+          top: 60px;
+          width: 50px;
+          height: 40px;
+          background-image: url('sipkaPravo.png');
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: 40px;
+          background-color: transparent;
+          border: none;
+          outline: none;
+          cursor: pointer;
+      }
+      .slick-prev{
+        position: absolute;
+        left: -30px;
+        top: 60px;
+        width: 50px;
+        height: 40px;
+        background-image: url('sipkaPravo.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 40px;
+        background-color: transparent;
+        transform: rotate(-180deg);
+        border: none;
+        outline: none;
+        cursor: pointer;
+      }
+    
+      .text{
+          position: relative;
+          display: inline-block;
+          top: 50px;
+          z-index: 10 !important;
+          color: black;
+          font-size: 17px;
+          max-width: 700px;
+          width: 500px;
+          line-height: 35px;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          left: -170px;
+      }
+    
+      .hemsworth-logo{
+        position: relative;
+        top: 70px;
+        left: 50px;
+        width: 50px;
+        height: auto;
+      }
+      .founder{
+        display: inline-block;
+        position: relative;
+        top:75px;
+        left:-14px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 15px;
+      }
+    
+      .jmeno{
+        font-size: 26px !important;
+      }
+    /*KONEC DRUHÝHO SLIDERU CSS*/
+    
+
+}
+/* KONEC DONEKONEČNA */
+
+
+
+/* ZMENŠENÁ OBRAZOVKA*/
+@media only screen and (max-width: 1100px)
+{
+    .celek{
+        position: relative;
+        left: 50%;
+        top: 6%;
+        transform: translate(-50%,-6%);
+        max-width: 800px;
+        border-radius: 50px;
+    }
+    .texty{
+        position: absolute;
+        left: 3%;
+        top: 10%;
+        color: white;
+    }
+    .celek-text1{
+        position: relative;
+        display: inline-block;
+        font-size: 35px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .celek-text2{
+        position: relative;
+        display: inline-block;
+        max-width: 40%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    
+    .celek-text3{
+        position: relative;
+        display: inline-block;
+        max-width: 360px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    
+    .celek-button{
+        position: relative;
+        color: white;
+        background-color: transparent;
+        border-color: white;
+        border-style: solid;
+        border-width: 1.3px;
+        border-radius: 3px;
+        cursor: pointer;
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+}
+/* KONEC ZMENŠENÝ */
+
+
+
+
+/* MOBILNÍ OBRAZOVKA */
+@media only screen and (max-width: 650px)
+{
+    .celek{
+        position: relative;
+        left: 50%;
+        top: 6%;
+        transform: translate(-50%,-6%);
+        max-width: 500px;
+        border-radius: 50px;
+    }
+    .texty{
+        position: absolute;
+        left: 3%;
+        top: 10%;
+        color: white;
+    }
+    .celek-text1{
+        position: relative;
+        display: inline-block;
+        font-size: 35px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .celek-text2{
+        position: relative;
+        display: inline-block;
+        max-width: 40%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    
+    .celek-text3{
+        position: relative;
+        display: inline-block;
+        max-width: 360px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    
+    .celek-button{
+        position: relative;
+        color: white;
+        background-color: transparent;
+        border-color: white;
+        border-style: solid;
+        border-width: 1.3px;
+        border-radius: 3px;
+        cursor: pointer;
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+}
+/* KONEC MOBILNÍ */
+
+
+
+
+
+/* VIDEO */
+#myVideo {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.horejsek{
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top:30%;
+    transform: translate(-50%,-30%);
+    text-align: center;
+  }
+  .logo{
+    position: relative;
+    width: 30%;
+    
+  }
+  .logo-text{
+    position: relative;
+    color: white;
+    line-height: 25px;
+    font-size: 20px;
+  }
+
+  .dolejsek{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%,-80%);
+    text-align: center;
+    width: 100%;
+  }
+
+  .button1-trial{
+      position: relative;
+      background-color: rgb(253, 230, 128);
+      border: none;
+      border-radius: 6px;
+      width: 260px;
+      font-size: 15px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      height: 7vh !important;
+      margin-bottom: -10px;
+      cursor: pointer;
+  }
+  .login-link{
+      position: relative;
+      text-decoration: underline;
+      color: white;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 15px;
+      cursor: pointer;
+  }
+  /* KONEC VIDEA */
+
+
