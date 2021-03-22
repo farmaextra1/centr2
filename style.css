@@ -16,49 +16,46 @@ body{
 /* OBRAZOVKA DONEKONEČNA */
 @media only screen and (min-width: 1100px)
 { 
-.druha-sekce{
-    position: absolute;
-    height: 1880px;
-    max-width: 100%;
-    width: 100%;
-    left: 0;
-    top: 90vh;
-    background-color: rgb(28, 27, 29);
-    z-index: -1;
-}
-
-.treti-sekce{
-    position: relative;
-    max-width: 102%;
-    width: 102%;
-    left: -1%;
-    background-color: rgb(240, 240, 240);
-    top: 1800px;
-    height: 750px;
-    z-index: -3;
-}
-
-.ctvrta-sekce{
-    position: relative;
-    max-width: 102%;
-    width: 102%;
-    left: -1%;
-    background-color: white;
-    top: 1800px;
-    height: 120vh;
-    z-index: -4;
-}
-
-.pata-sekce{
-    position: absolute;
-    max-width: 102%;
-    width: 102%;
-    left: -1%;
-    background-color: rgb(240, 240, 240);
-    top: 3900px;
-    height: 900px;
-    z-index: -5;
-}
+    .druha-sekce{
+        position: absolute;
+        height: 1880px;
+        max-width: 100%;
+        width: 100%;
+        left: 0;
+        top: 90vh;
+        background-color: rgb(28, 27, 29);
+        z-index: -1;
+    }
+    
+    .treti-sekce{
+        position: absolute;
+        max-width: 100%;
+        width: 100%;
+        background-color: rgb(240, 240, 240);
+        top: 2400px;
+        height: 750px;
+        z-index: -3;
+    }
+    
+    .ctvrta-sekce{
+        position: absolute;
+        max-width: 100%;
+        width: 100%;
+        background-color: white;
+        top: 3150px;
+        height: 120vh;
+        z-index: -4;
+    }
+    
+    .pata-sekce{
+        position: absolute;
+        max-width: 100%;
+        width: 100%;
+        background-color: rgb(240, 240, 240);
+        top: 3900px;
+        height: 900px;
+        z-index: -5;
+    }
 
 .obrazek1{
     width: 100%;
