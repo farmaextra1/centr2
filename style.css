@@ -187,7 +187,7 @@ body{
         height: 45px;
         top: 30px;
         background-color: black;
-        background-image: url("play.png");
+        background-image: url("images/play.png");
         background-repeat: no-repeat;
         background-position: 115px center;  
         background-size: 38px;   
@@ -277,7 +277,7 @@ body{
         height: 45px;
         top: 50px;
         background-color: black;
-        background-image: url("play.png");
+        background-image: url("images/play.png");
         background-repeat: no-repeat;
         background-position: 115px center;  
         background-size: 38px;   
