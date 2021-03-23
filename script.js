@@ -38,6 +38,27 @@ $( document ).ready(function() {
 });
 /*KONEC DRUHYHO SLIDERU JS */
 
+/*ZACATEK POSLEDNIHO SLIDERU */
+$('.slider-2').slick({
+	infinite: true,
+	slidesToShow: 3,
+	slidesToScroll: 1,
+    focusOnSelect: true,
+    centerMode: true,
+	arrows: true,
+    variableWidth: true
+});
+
+$( document ).ready(function() {
+    $(".slick-next").html("");
+});
+
+$( document ).ready(function() {
+    $(".slick-prev").html("");
+});
+/*KONEC POSLEDNIHO SLIDERU */
+
+
 function platba1()
 {
     document.getElementById('platbicka2').style.backgroundColor= "white";
